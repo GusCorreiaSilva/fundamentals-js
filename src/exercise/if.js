@@ -30,8 +30,11 @@ if (nota === 10) {
 }else if (nota >= 4 && nota <= 6) {
     return console.log('Recuperação');
     
-}else {
+}else if (nota => 0 && nota <=3) {
     return console.log('Reprovado');
+    
+}else {
+    return console.log('Nota invalida');
     
 }
 
