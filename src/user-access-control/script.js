@@ -5,7 +5,7 @@ function verificarAcesso(perfil) {
         return console.log("Bem vindo(a), administrador");
 
     } else if (perfil === "moderador") {
-        
+
         return console.log("Bem vindo(a) moderador, você pode gerenciar o conteúdo");
         
     }
