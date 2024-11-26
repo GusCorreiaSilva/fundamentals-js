@@ -60,14 +60,42 @@
 
 
 //criar função que mostra quando numero é par ou impar
-function Number(n) {
-    if(n % 2 !== 0) {
-        return `${n} Esse número é impar`;
+// function Number(n) {
+//     if(n % 2 !== 0) {
+//         return `${n} Esse número é impar`;
         
-    }else {
-        return `${n} Esse número é par`;
+//     }else {
+//         return `${n} Esse número é par`;
         
-    }
-} 
+//     }
+// } 
 
-console.log(Number(8));
+// console.log(Number(8));
+
+
+// function ShortName(fullName) {
+//     const splitName = fullName.split(' ')
+//     const [firstName, ...rest] = splitName
+//     const lastName = rest[rest.length -1]
+
+//     return console.log(`${firstName} ${lastName}`);
+    
+// }
+// ShortName('Maria Jose dos Santos')
+
+
+// const Name = 'Gustavo Correia da silva'
+// const transform = Name.split(' ')
+
+// const [first, ...rest] = transform
+// console.log(transform);
+// console.log(first);
+// console.log(rest);
+
+//Se a função receber true ela retorna yes e se for falso retorna no
+
+function Boolean(b) {
+   return b ? 'Yes' : 'No';
+    
+}
+console.log(Boolean(1));
