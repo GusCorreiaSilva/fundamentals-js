@@ -107,3 +107,8 @@ const exempleAnonimo = function() {
 }
 exempleAnonimo()
 
+//Arrow
+const arrowFunction = () => {
+    return console.log('Sou uma arrow function');
+    
+}
