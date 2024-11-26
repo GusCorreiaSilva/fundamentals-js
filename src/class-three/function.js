@@ -33,16 +33,16 @@
 // }
 
 //função estatica
-function Soma() {
-    return 2+2 
-}
-console.log(Soma());
+// function Soma() {
+//     return 2+2 
+// }
+// console.log(Soma());
 
 //função dinamica
-function DynaSoma(a, b){
-    return a + b
-}
-console.log(DynaSoma(10, 300));
+// function DynaSoma(a, b){
+//     return a + b
+// }
+// console.log(DynaSoma(10, 300));
 
 // function Salve() {
 //     return console.log('Salve, sou uma função estática');
@@ -57,3 +57,17 @@ console.log(DynaSoma(10, 300));
     
 // }
 // console.log(Saudacao());
+
+
+//criar função que mostra quando numero é par ou impar
+function Number(n) {
+    if(n % 2 !== 0) {
+        return `${n} Esse número é impar`;
+        
+    }else {
+        return `${n} Esse número é par`;
+        
+    }
+} 
+
+console.log(Number(8));
