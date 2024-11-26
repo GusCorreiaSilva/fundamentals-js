@@ -59,7 +59,7 @@
 // console.log(Saudacao());
 
 
-//criar função que mostra quando numero é par ou impar
+//1 criar função que mostra quando numero é par ou impar
 // function Number(n) {
 //     if(n % 2 !== 0) {
 //         return `${n} Esse número é impar`;
@@ -92,10 +92,18 @@
 // console.log(first);
 // console.log(rest);
 
-//Se a função receber true ela retorna yes e se for falso retorna no
+//2 Se a função receber true ela retorna yes e se for falso retorna no
 
 function Boolean(b) {
    return b ? 'Yes' : 'No';
     
 }
 console.log(Boolean(1));
+
+// função anonimas
+const exempleAnonimo = function() {
+    console.log('sou uma fução anonima');
+    
+}
+exempleAnonimo()
+
