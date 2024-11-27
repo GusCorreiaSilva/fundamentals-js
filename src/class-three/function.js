@@ -59,7 +59,7 @@
 // console.log(Saudacao());
 
 
-//1 criar função que mostra quando numero é par ou impar
+//exercicios 1 criar função que mostra quando numero é par ou impar
 // function Number(n) {
 //     if(n % 2 !== 0) {
 //         return `${n} Esse número é impar`;
@@ -92,23 +92,31 @@
 // console.log(first);
 // console.log(rest);
 
-//2 Se a função receber true ela retorna yes e se for falso retorna no
+//exercicios 2 Se a função receber true ela retorna yes e se for falso retorna no
 
-function Boolean(b) {
-   return b ? 'Yes' : 'No';
+// function Boolean(b) {
+//    return b ? 'Yes' : 'No';
     
-}
-console.log(Boolean(1));
+// }
+// console.log(Boolean(1));
 
 // função anonimas
-const exempleAnonimo = function() {
-    console.log('sou uma fução anonima');
+// const exempleAnonimo = function() {
+//     console.log('sou uma fução anonima');
     
-}
-exempleAnonimo()
+// }
+// exempleAnonimo()
 
 //Arrow
-const arrowFunction = () => {
-    return console.log('Sou uma arrow function');
+// const arrowFunction = () => {
+//     return console.log('Sou uma arrow function');
     
+// }
+
+
+//exercicios 3 Saldações para o nome que for passado no parâmetro
+function greeting (nome) {
+    return `Olá ${nome}, seja bem vindo!`
 }
+console.log(greeting('Lucas'));
+
