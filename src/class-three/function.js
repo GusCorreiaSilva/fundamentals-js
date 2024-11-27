@@ -92,7 +92,7 @@
 // console.log(first);
 // console.log(rest);
 
-//exercicios 2 Se a função receber true ela retorna yes e se for falso retorna no
+//exercícios 2 Se a função receber true ela retorna yes e se for falso retorna no
 
 // function Boolean(b) {
 //    return b ? 'Yes' : 'No';
@@ -114,9 +114,15 @@
 // }
 
 
-//exercicios 3 Saldações para o nome que for passado no parâmetro
+//exercícios 3 Saldações para o nome que for passado no parâmetro
 function greeting (nome) {
     return `Olá ${nome}, seja bem vindo!`
 }
 console.log(greeting('Lucas'));
 
+
+//exercicio 4 função imc
+function imc(altura, peso) {
+    return peso % altura 
+}
+console.log(imc(180, 75));
