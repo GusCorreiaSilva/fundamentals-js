@@ -122,7 +122,7 @@ console.log(greeting('Lucas'));
 
 
 //exercicio 4 função imc
-function imc(altura, peso) {
+function imc(peso, altura) {
     return peso % altura 
 }
-console.log(imc(180, 75));
+console.log(imc(75, 180));
